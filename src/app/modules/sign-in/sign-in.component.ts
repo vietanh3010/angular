@@ -52,5 +52,6 @@ export class SignInComponent implements OnInit {
     }
     onChangePassword(e: any) {
         this.password = e.target.value;
+
     }
 }
